@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Inicio() {
 
     return (
-        <div className='pagina pagina-inicio'>
+        <div className='pagina-inicio'>
             <header>
                 <img src="/assets/images/logofrei.png" alt="" />
 
@@ -19,23 +19,38 @@ export default function Inicio() {
                 <h1>Escolha um treino...</h1>
 
                 <div className='exercicios'>
-                    <div className='card1'>
-                        <div></div>
-                        <h1>Cupom de desconto</h1>
-                        <h2>Exercício 1</h2>
+                    
+                    <div className='card'>
+                        <div className='um'></div>
+                        <Link to = '/ex1'>
+                        <h2>Cupom de desconto</h2>
+                        </Link>
+                        <h3>Exercício 1</h3>
                     </div>
+                   
+                    
+                    
+                    <div className='card'>
+                        <div className='dois'></div>
+                        <Link to = '/ex2'>
+                        <h2>Converter Kg/gramas</h2>
 
-                    <div className='card2'>
-                        <div></div>
-                        <h1>Converter Kg/gramas</h1>
-                        <h2>Exercício 2</h2>
+                        </Link>
+                        <h3>Exercício 2</h3>
                     </div>
+                     
+                    
+                    
+                    <div className='card'>
+                        <div className='tres'></div>
+                        <Link to = '/ex3'>
+                        <h2>Valor total por quantidade</h2>
 
-                    <div className='card3'>
-                        <div></div>
-                        <h1>Valor total por quantidade</h1>
-                        <h2>Exercício 3</h2>
-                    </div>
+                        </Link>
+                        <h3>Exercício 3</h3>
+                    </div>    
+                   
+                
                 </div>
             </section>
         </div>

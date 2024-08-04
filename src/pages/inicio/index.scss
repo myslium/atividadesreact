@@ -1,0 +1,117 @@
+
+
+.pagina-inicio {
+
+    min-height: 100vh;
+
+    background-color: #F5F6FA;
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        padding: 20px 50px;
+        background-color: #6278F7;
+
+        h1 {
+            font: 700 20px 'Roboto';
+            color: #fff; 
+            margin-left: 40px;
+            
+        }
+
+        nav  {
+            display: flex;
+            flex-direction: row;
+            margin-left: 60rem;
+            gap: 20px;
+
+            h2 {
+                font: 400 20px 'Roboto';
+                color: #fff;
+                
+            }
+
+            a,a:visited,a:link { 
+                text-decoration: none; 
+            }
+        }
+
+
+        img {
+            width: 50px;
+            height: 60px;
+            margin-left: 40px;
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+        gap: 2rem;
+
+        h1 {
+            font: 700 26px 'Roboto';
+        }
+
+        .exercicios {
+            display: flex;
+            flex-direction: row;
+            gap: 3.5rem;
+
+
+           .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            
+
+             background-color: #fff;
+             width: 215px;
+             height: 158px;
+             border-radius: 12px;
+
+            .um {
+                background-color: #FFCE37;
+                width: 60px;
+                height: 60px;
+                border-radius: 12px;
+
+            }
+
+            .dois {
+                background-color: #B3FF37;
+                width: 60px;
+                height: 60px;
+                border-radius: 12px;
+
+            }
+            
+            .tres {
+                background-color: #37FFF3;
+                width: 60px;
+                height: 60px;
+                border-radius: 12px;
+
+           }
+
+            
+             a,a:visited, a:link {
+                text-decoration: none;
+                font: 700 10px 'Roboto';
+                color: #383131;
+             }
+
+             h3 {
+                font: 500 14px 'Roboto';
+                color: #685e5e;
+             }
+           }
+        }
+    }
+}
