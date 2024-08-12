@@ -15,7 +15,7 @@ export default function Conversao() {
     }
 
     return (
-        <div className='pagina-ex2'>
+        <div className='pagina-ex2 pagina'>
             <header>
                 <img src="/assets/images/logofrei.png" alt="" />
 
@@ -52,9 +52,12 @@ export default function Conversao() {
                 <button onClick={converter} >Executar</button>
                 </div>
                 
-
                 </div>
+
+               
                 <h3>Resultado: o total é {resultado} gramas</h3>
+
+                
             </section>
         </div>
     )

@@ -16,7 +16,7 @@ export default function Cupom() {
     }
 
     return (
-        <div className='pagina-ex1'>
+        <div className='pagina-ex1 pagina'>
              <header>
                 <img src="/assets/images/logofrei.png" alt="" />
 
@@ -58,7 +58,11 @@ export default function Cupom() {
                 
 
                 </div>
+
+                
                 <h3>Resultado: o total é R$ {total} </h3>
+
+                
             </section>
             
         </div>

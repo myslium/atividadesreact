@@ -1,0 +1,100 @@
+.pagina-ex6 {
+
+    .divisao {
+            
+            
+        background-color: #6E8658;
+    }
+
+
+    .ex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        margin-top: 3rem;
+        padding-bottom: 7rem;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: end;
+            padding: 20px 30px 20px 10px;
+            gap: 15px;
+            width: 647px;
+            height: 194px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0px 7px 15px #adadad59;
+
+            .pai {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 80px;
+                
+
+                .filho {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    
+
+                    h2 {
+                        font: 700 16px 'Roboto';
+                        color: #383131;
+                        margin-bottom: 10px;
+                        margin-left: 2rem;
+                        
+                    }
+        
+                    input {
+                        max-width: 120px;
+                        width: 100%;
+                        padding: 14px 10px;
+                        border-radius:  12px;
+                        border: 1px solid #A5A5A5;
+                        outline: none;
+                        font: 400 14px 'Roboto' ;
+                        
+                        
+                    }
+                }
+                  
+
+            }
+
+            button {
+                    
+                padding: 16px 85px;
+                background-color: #6278F7;
+                font: 500 14px 'Roboto';
+                color: #fff;
+                border-radius: 12px;
+                border: 1px solid #6278F7;
+                margin-top: 1rem;
+
+
+            }
+
+            button:hover{
+
+                background-color: #4d5ec0;
+            }
+        }
+        
+            h3 {
+                font: 700 16px 'Roboto';
+                color: #383131;
+                text-align: right;
+                margin-top: 1rem;
+                margin-left: 26rem;
+            }
+        
+    }
+
+}

@@ -21,7 +21,7 @@ export default function TotalQtd() {
 
 
     return (
-        <div className='pagina-ex3'>
+        <div className='pagina-ex3 pagina'>
             <header>
                 <img src="/assets/images/logofrei.png" alt="" />
 
@@ -72,7 +72,10 @@ export default function TotalQtd() {
                     <button onClick={total}>Executar</button>
                 </div>
 
-                <h3>Resultado: O total é R$ {resultado}</h3>
+                
+                    <h3>Resultado: O total é R$ {resultado}</h3>
+
+              
             </section>
 
           
