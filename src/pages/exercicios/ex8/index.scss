@@ -1,12 +1,11 @@
-.pagina-ex7 {
-
-
+.pagina-ex8 {
+     
+  
     .ex {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
        
         margin-top: 3rem;
         padding-bottom: 7rem;
@@ -15,7 +14,7 @@
             flex-direction: column;
             justify-content: center;
             width: 476px;
-            height: 295px;
+            height: 187px;
             background-color: #fff;
             border-radius: 12px;
             box-shadow: 0px 7px 15px #adadad59;
@@ -24,6 +23,7 @@
                 font: 700 16px 'Roboto';
                 color: #383131;
                 margin-bottom: 10px;
+                margin-top: 1rem;
                 margin-left: 2rem;
                 
             }
@@ -34,10 +34,10 @@
                 padding: 14px 10px;
                 border-radius:  12px;
                 border: 1px solid #A5A5A5;
-                outline: none;
                 font: 400 14px 'Roboto' ;
                 margin-left: 2rem;
                 margin-bottom: 1rem;
+                outline: none;
             }
 
             div {
@@ -54,6 +54,7 @@
                 border-radius: 12px;
                 border: 1px solid #6278F7;
                 margin-top: 1rem;
+                margin-bottom: 1rem;
 
 
             }
@@ -66,18 +67,16 @@
        
         .final {
 
-         margin-left: 10rem;
-         margin-top: 0.5rem;
-
-         h3 {
-            font: 700 18px 'Roboto';
-            color: #383131;
-         }
-
-            
-        }
-          
+            margin-left: 7rem;
+            margin-top: 0.5rem;
+   
+            h3 {
+               font: 700 18px 'Roboto';
+               color: #383131;
+            }
+   
+               
+           }
         
     }
-
 }
