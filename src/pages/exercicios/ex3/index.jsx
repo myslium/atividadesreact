@@ -1,7 +1,8 @@
 import './index.scss'
 
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import NomeExercicio from '../../../components/nomeEx'
+import Cabecalho from '../../../components/cabecalho'
 
 
 export default function TotalQtd() {
@@ -22,27 +23,16 @@ export default function TotalQtd() {
 
     return (
         <div className='pagina-ex3 pagina'>
-            <header>
-                <img src="/assets/images/logofrei.png" alt="" />
+           
+           <Cabecalho/>
 
-                <h1>React FreiS</h1>
-                <nav>
-                <Link to = '/'><h2>Início</h2></Link>
-                <Link to = '/sobre'><h2>Sobre</h2></Link>
-                </nav>
-            </header>
-
-            <section className='titulo'>
-                <Link to = '/'>
-                <img src="/assets/images/voltar.png" alt="" />
-                </Link>
-                
-                <h1>Exercício 03 - Valor total por quantidade</h1>
-
-                
-            </section>
-
-            <div className='divisao'></div>
+           <NomeExercicio
+            
+            link = '/'
+            img = '/assets/images/voltar.png'
+            exercicio = 'Exercício 03 - Valor total por quantidade'
+            color = '#37FFF3'
+            />
 
             <section className='quadro'>
                 <p>Implementar um programa em Javascript para calcular o <b>total de uma venda de açaí</b> a partir das quantidades compradas para cada tamanho: <b>pequeno, médio e grande,</b>

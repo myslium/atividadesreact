@@ -1,88 +1,131 @@
 import './index.scss'
-import { Link } from 'react-router-dom'
+import Cabecalho from '../../components/cabecalho'
+import DivExercicios from '../../components/div'
 
 
 export default function Inicio() {
 
     return (
         <div className='pagina-inicio pagina'>
-            <header>
-                <img src="/assets/images/logofrei.png" alt="" />
-
-                <h1>React FreiS</h1>
-                <nav>
-                <Link to = '/'><h2>Início</h2></Link>
-                <Link to = '/sobre'><h2>Sobre</h2></Link>
-                </nav>
-            </header>
+           <Cabecalho/>
             <section>
                 <h1>Escolha um treino...</h1>
 
                 <div className='exercicios'>
+                
+                    <DivExercicios
                     
-                    <div className='card'>
-                        <div className='um'></div>
-                        <Link to = '/ex1'>
-                        <h2>Cupom de desconto</h2>
-                        </Link>
-                        <h3>Exercício 1</h3>
-                    </div>
-                   
+                    link = '/ex1'
+                    color = '#FFCE37'
+                    nome = 'Cupom de desconto'
+                    ex = 'Exercício 1'
                     
+                    />
+
+                    <DivExercicios
                     
-                    <div className='card'>
-                        <div className='dois'></div>
-                        <Link to = '/ex2'>
-                        <h2>Converter Kg/gramas</h2>
-
-                        </Link>
-                        <h3>Exercício 2</h3>
-                    </div>
-                     
+                    link = '/ex2'
+                    color = '#B3FF37'
+                    nome = 'Converter kg/gramas'
+                    ex = 'Exercício 2'
                     
+                    />
                     
-                    <div className='card'>
-                        <div className='tres'></div>
-                        <Link to = '/ex3'>
-                        <h2>Valor total por quantidade</h2>
+                    <DivExercicios
+                    
+                    link = '/ex3'
+                    color = '#37FFF3'
+                    nome = 'Valor total por quantidade'
+                    ex = 'Exercício 3'
+                    
+                    />
 
-                        </Link>
-                        <h3>Exercício 3</h3>
-                    </div>    
+                    <DivExercicios
+                    
+                    link = '/ex4'
+                    color = '#37B7FF'
+                    nome = 'Leitura de livro'
+                    ex = 'Exercício 4'
+                    
+                    />
+                    <DivExercicios
+                    
+                    link = '/ex5'
+                    color = '#CB37FF'
+                    nome = 'Média de notas'
+                    ex = 'Exercício 5'
+                    
+                    />
 
-                    <div className='card'>
-                        <div className='quatro'></div>
-                        <Link to = '/ex4'>
-                        <h2>Tempo livro lido</h2>
+                    
 
-                        </Link>
-                        <h3>Exercício 4</h3>
-                    </div>    
-                   
-                    <div className='card'>
-                        <div className='cinco'></div>
-                        <Link to = '/ex5'>
-                        <h2>Media aluno</h2>
+                    <DivExercicios
+                    
+                    link = '/ex6'
+                    color = '#FF5B37'
+                    nome = 'Sálario líquido'
+                    ex = 'Exercício 6'
+                    
+                    />
 
-                        </Link>
-                        <h3>Exercício 5</h3>
-                    </div>  
+                    <DivExercicios
+                    
+                    link = '/ex7'
+                    color = '#37FFAB'
+                    nome = 'Cores primárias'
+                    ex = 'Exercício 7'
+                    
+                    />
 
-        
+                    <DivExercicios
+                    
+                    link = '/ex8'
+                    color = '#000'
+                    nome = 'Temperatura'
+                    ex = 'Exercício 8'
+                    
+                    />
+
+
+                    <DivExercicios
+                    
+                    link = '/ex9'
+                    color = '#D0D0D0'
+                    nome = 'Sorveteria'
+                    ex = 'Exercício 9'
+                    
+                    />
+
+                    <DivExercicios
+                    
+                    link = '/ex10'
+                    color = '#B75333'
+                    nome = 'Calculo de IMC'
+                    ex = 'Exercício 10'
+                    
+                    />
+
+                    <DivExercicios
+                    
+                    link = '/ex11'
+                    color = '#6533B7'
+                    nome = 'Tabuada'
+                    ex = 'Exercício 11'
+                    
+                    />
+
+                    <DivExercicios
+                    
+                    link = '/ex12'
+                    color = '#FFCE37'
+                    nome = 'Comparador de pessoas'
+                    ex = 'Exercício 12'
+                    
+                    />
                 
                 </div>
 
-                <div className='exercicios-2'>
-                <div className='card'>
-                        <div className='seis'></div>
-                        <Link to = '/ex6'>
-                        <h2>Salário líquido</h2>
-
-                        </Link>
-                        <h3>Exercício 6</h3>
-                    </div>  
-
-                </div>
+              
             </section>
         </div>
     )

@@ -1,7 +1,8 @@
 import './index.scss'
 
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import NomeExercicio from '../../../components/nomeEx'
+import Cabecalho from '../../../components/cabecalho'
 
 
 export default function Media() {
@@ -26,27 +27,16 @@ export default function Media() {
 
     return (
         <div className='pagina-ex5 pagina'>
-            <header>
-                <img src="/assets/images/logofrei.png" alt="" />
-
-                <h1>React FreiS</h1>
-                <nav>
-                <Link to = '/'><h2>Início</h2></Link>
-                <Link to = '/sobre'><h2>Sobre</h2></Link>
-                </nav>
-            </header>
-
-            <section className='titulo'>
-                <Link to = '/'>
-                <img src="/assets/images/voltar.png" alt="" />
-                </Link>
-                
-                <h1>Exercício 05 - Média do aluno</h1>
-
-                
-            </section>
-
-            <div className='divisao'></div>
+          
+          <Cabecalho/>
+           
+          <NomeExercicio
+            
+            link = '/'
+            img = '/assets/images/voltar.png'
+            exercicio = 'Exercício 05 - Média de notas'
+            color = '#CB37FF'
+            />
 
             <section className='quadro'>
                 <p>Implementar um programa em Javascript para <b>verificar</b> se um aluno passou ou não, baseado em 3 notas, considerando que a média mínima para passar é 6.</p>

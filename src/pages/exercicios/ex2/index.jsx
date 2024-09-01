@@ -1,7 +1,9 @@
 import './index.scss'
 
-import { Link } from 'react-router-dom'
+
 import { useState } from 'react'
+import NomeExercicio from '../../../components/nomeEx'
+import Cabecalho from '../../../components/cabecalho'
 
 export default function Conversao() {
 
@@ -16,27 +18,17 @@ export default function Conversao() {
 
     return (
         <div className='pagina-ex2 pagina'>
-            <header>
-                <img src="/assets/images/logofrei.png" alt="" />
+            <Cabecalho/>
 
-                <h1>React FreiS</h1>
-                <nav>
-                <Link to = '/'><h2>Início</h2></Link>
-                <Link to = '/sobre'><h2>Sobre</h2></Link>
-                </nav>
-            </header>
-
-            <section className='titulo'>
-                <Link to = '/'>
-                <img src="/assets/images/voltar.png" alt="" />
-                </Link>
-                
-                <h1>Exercício 02 - Converter Kg/gramas</h1>
-
-                
-            </section>
-
-            <div className='divisao'></div>
+            <NomeExercicio
+            
+            link = '/'
+            img = '/assets/images/voltar.png'
+            exercicio = 'Exercício 02 - Converter Kg/gramas'
+            color = '#B3FF37'
+            />
+           
+          
 
             <section className='quadro'>
                 <p>Implementar um programa em <b>Javascript</b> para <b>converter kilos em gramas.</b></p>
