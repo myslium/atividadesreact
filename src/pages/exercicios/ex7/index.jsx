@@ -64,7 +64,7 @@ export default function CoresPrimarias() {
                 </div>
 
                 <div className='final'>
-                <h3>As duas cores são primárias? {resultado ? 'true' : 'false'} </h3>    
+                <h3>As duas cores são primárias? {resultado} </h3>    
                  </div>
                
 
