@@ -10,6 +10,7 @@ import SalarioLiquido from "./pages/exercicios/ex6";
 import Temperatura from "./pages/exercicios/ex8";
 import Sorveteria from "./pages/exercicios/ex9";
 import Imc from "./pages/exercicios/ex10";
+import Tabuada from "./pages/exercicios/ex11";
 
 export default function Navegacao() {
 
@@ -28,6 +29,7 @@ export default function Navegacao() {
             <Route path="/ex8" element = {<Temperatura/>}/>
             <Route path="/ex9" element = {<Sorveteria/>}/>
             <Route path="/ex10" element = {<Imc/>}/>
+            <Route path="/ex11" element = {<Tabuada/>}/>
 
            </Routes>
         </BrowserRouter>

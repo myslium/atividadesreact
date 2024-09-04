@@ -1,8 +1,6 @@
-
-
-.pagina-ex1 {
-
-
+.pagina-ex11 {
+     
+  
     .ex {
         display: flex;
         flex-direction: column;
@@ -16,7 +14,7 @@
             flex-direction: column;
             justify-content: center;
             width: 476px;
-            height: 295px;
+            height: 190px;
             background-color: #fff;
             border-radius: 12px;
             box-shadow: 0px 7px 15px #adadad59;
@@ -25,6 +23,7 @@
                 font: 700 16px 'Roboto';
                 color: #383131;
                 margin-bottom: 10px;
+                margin-top: 1rem;
                 margin-left: 2rem;
                 
             }
@@ -35,10 +34,10 @@
                 padding: 14px 10px;
                 border-radius:  12px;
                 border: 1px solid #A5A5A5;
-                outline: none;
                 font: 400 14px 'Roboto' ;
                 margin-left: 2rem;
                 margin-bottom: 1rem;
+                outline: none;
             }
 
             div {
@@ -55,6 +54,7 @@
                 border-radius: 12px;
                 border: 1px solid #6278F7;
                 margin-top: 1rem;
+                margin-bottom: 1rem;
 
 
             }
@@ -65,14 +65,22 @@
         }
 
        
+        .final {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: flex-end;
+            margin-top: 0.5rem;
+            width: 476px;
+   
             h3 {
-                font: 700 16px 'Roboto';
-                color: #383131;
-                text-align: right;
-                margin-top: 1rem;
-                margin-left: 20rem;
+               font: 700 18px 'Roboto';
+               color: #383131;
+               text-align: start;
             }
+   
+               
+           }
         
     }
-
 }
