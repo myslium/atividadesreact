@@ -1,0 +1,128 @@
+.pagina-ex12 {
+
+    
+    .ex {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        max-width: 1270px;
+        
+        
+        margin: 3rem 4rem 0rem 6rem;
+      
+        padding-bottom: 7rem;
+        gap: 50px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: end;
+            padding: 20px 30px 20px 10px;
+            gap: 15px;
+            width: 476px;
+            height: 352px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0px 7px 15px #adadad59;
+
+           
+               .informacao {
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 0.8rem;
+                    gap: 10px;
+
+
+                    h2 {
+                        font: 700 18px 'Roboto';
+                        color: #383131;
+                    }
+
+                    input {
+                        padding: 0px 10px 0px 10px;
+
+                        width: 414px;
+                        height: 41px;
+
+                        border: 1.85px solid #A5A5A5;
+                        border-radius: 12px;
+                        outline: none;
+
+                        font: 400 16px 'Roboto';
+                        color: #383131;
+                    }
+                }
+
+                .genero {
+                    display: flex;
+                    flex-direction: column;
+
+                    gap: 10px;
+
+                    h2 {
+                        font: 700 18px 'Roboto';
+                        color: #383131;
+                    }
+
+                    .inputs {
+                        display: flex;
+                        gap: 15px;
+
+
+                        .sexo {
+
+                            display: flex;
+                            gap: 10px;
+
+                        
+                            font: 400 16px 'Roboto';
+                            color: #383131;
+                            
+
+                         
+                        }
+                    }
+                }
+
+               }
+        
+        }
+                  
+
+            }
+
+            button {
+                    
+                padding: 16px 85px;
+                background-color: #6278F7;
+                font: 500 14px 'Roboto';
+                color: #fff;
+                border-radius: 12px;
+                border: 1px solid #6278F7;
+                margin-top: 1rem;
+
+
+            }
+
+            button:hover{
+
+                background-color: #4d5ec0;
+            }
+}
+
+        
+       
+              
+
+            
+
+           
+        
+
+
+      
+    
+
