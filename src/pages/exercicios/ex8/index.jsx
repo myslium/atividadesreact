@@ -3,11 +3,20 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
+import { useEffect } from 'react'
 
 export default function Temperatura() {
 
     const [temperatura, setTemperatura] = useState('')
     const [resultado, setResultado] = useState('')
+    const [situacao, setSituacao] = useState(false)
+
+    useEffect(() => {
+        efeito()
+        
+
+    }, [resultado])
+    
 
     function febre() {
 
@@ -27,9 +36,17 @@ export default function Temperatura() {
             setResultado('Hipotermia')
         }
         
-        setTemperatura('')
+        
     }
-   
+    
+    function efeito() {
+        if (resultado === 'Febre alta' || resultado === 'Febre' || resultado === 'Hipertermia') {
+            setSituacao(true)
+        }
+        else {
+            setSituacao(false)
+        }
+    }
 
     return (
         <div className='pagina-ex8 pagina'>
@@ -53,7 +70,13 @@ export default function Temperatura() {
 
                 <div className='card'>
                 <h2>Temperatura</h2>
-                <input type="text" value={temperatura} onChange={e => setTemperatura(e.target.value)}/>
+                
+                 <input type="text" value={temperatura} onChange={e => setTemperatura(e.target.value)}/>
+                 {
+                    situacao == true && <p>A sua situação está complicada!</p>
+                 }
+                
+               
 
                 <div>
                 <button onClick={febre}>Executar</button>

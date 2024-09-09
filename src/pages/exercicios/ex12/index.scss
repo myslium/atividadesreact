@@ -13,104 +13,202 @@
         padding-bottom: 7rem;
         gap: 50px;
 
-        .card {
+        .um {
+
             display: flex;
             flex-direction: column;
-            justify-content: end;
-            align-items: end;
-            padding: 20px 30px 20px 10px;
-            gap: 15px;
-            width: 476px;
-            height: 352px;
-            background-color: #fff;
-            border-radius: 12px;
-            box-shadow: 0px 7px 15px #adadad59;
+            gap: 10px;
 
-           
-               .informacao {
+            .card {
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                align-items: end;
+                padding: 20px 30px 20px 10px;
+                gap: 15px;
+                width: 476px;
+                height: 352px;
+                background-color: #fff;
+                border-radius: 12px;
+                box-shadow: 0px 7px 15px #adadad59;
+    
+               
+                   .informacao {
+    
+                    .info {
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 0.8rem;
+                        gap: 10px;
+    
+    
+                        h2 {
+                            font: 700 18px 'Roboto';
+                            color: #383131;
+                        }
+    
+                        input {
+                            padding: 0px 10px 0px 10px;
+    
+                            width: 414px;
+                            height: 41px;
+    
+                            border: 1.85px solid #A5A5A5;
+                            border-radius: 12px;
+                            outline: none;
+    
+                            font: 400 16px 'Roboto';
+                            color: #383131;
+                        }
+                    }
+    
+                    .genero {
+                        display: flex;
+                        flex-direction: column;
+    
+                        gap: 10px;
+    
+                        h2 {
+                            font: 700 18px 'Roboto';
+                            color: #383131;
+                        }
+    
+                        .inputs {
+                            display: flex;
+                            gap: 15px;
+    
+    
+                            .sexo {
+    
+                                display: flex;
+                                gap: 10px;
+    
+                            
+                                font: 400 16px 'Roboto';
+                                color: #383131;
+                                
+    
+                             
+                            }
+                        }
+                    }
+    
+                   }
+                   button {
+                
+                    padding: 16px 85px;
+                    background-color: #6278F7;
+                    font: 500 14px 'Roboto';
+                    color: #fff;
+                    border-radius: 12px;
+                    border: 1px solid #6278F7;
+                    margin-top: 1rem;
+        
+        
+                }
+        
+                button:hover{
+        
+                    background-color: #4d5ec0;
+                }
+        
+        
+            
+            }
+
+            .infos-pessoas{
+                font: 700 13px 'Roboto';
+                color: #383131;
+            }
+
+            
+        }
+
+      
+        .resultados {
+            display: flex;
+            flex-direction: column;
+
+
+            h1 {
+                font: 700 18px 'Roboto';
+            }
+            .cor {
+                background-color: #6533B7;
+                height: 2px;
+                width: 704px;
+                margin-top: 0.5rem;
+            }
+
+            .resul-pessoas {
+
+             margin-top: 20px;
+            .cartao {
+
+                width: 215px;
+                height: 158px;
+                background-color: #fff;
+                border-bottom-left-radius: 12px;
+                border-bottom-right-radius: 12px;
+                position: relative;
+
+                h1 {
+                    font: 700 14px 'Roboto';
+                    color: #383131;
+                }
+
+                h2 {
+                    margin-top: 35px;
+                    font: 400 14px 'Roboto';
+                    color: #383131;
+                }
 
                 .info {
                     display: flex;
                     flex-direction: column;
-                    margin-bottom: 0.8rem;
-                    gap: 10px;
-
-
-                    h2 {
-                        font: 700 18px 'Roboto';
-                        color: #383131;
-                    }
-
-                    input {
-                        padding: 0px 10px 0px 10px;
-
-                        width: 414px;
-                        height: 41px;
-
-                        border: 1.85px solid #A5A5A5;
-                        border-radius: 12px;
-                        outline: none;
-
-                        font: 400 16px 'Roboto';
-                        color: #383131;
-                    }
+                    align-items: center;
+                    padding: 20px;
                 }
 
-                .genero {
+                .botoes {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: #3E4C9B;
                     display: flex;
-                    flex-direction: column;
+                    gap: 3px;
+                    border-radius: 8px;
+                    
 
-                    gap: 10px;
-
-                    h2 {
-                        font: 700 18px 'Roboto';
-                        color: #383131;
+                    .a {
+                        padding: 10px 35px;
+                        border-bottom-left-radius: 8px ;
+                        border: none;
+                        background-color: #6278F7;
+                        font: 700 14px 'Roboto';
+                        color: #fff;
+                    }
+                    .b {
+                        padding: 10px 30px;
+                        border-bottom-right-radius: 8px ;
+                        background-color: #6278F7;
+                        border: none;
+                        font: 700 14px 'Roboto';
+                        color: #fff;
                     }
 
-                    .inputs {
-                        display: flex;
-                        gap: 15px;
-
-
-                        .sexo {
-
-                            display: flex;
-                            gap: 10px;
-
-                        
-                            font: 400 16px 'Roboto';
-                            color: #383131;
-                            
-
-                         
-                        }
-                    }
+                    
                 }
-
-               }
-        
+            }
         }
+        }
+
+        }
+
+        
                   
 
-            }
-
-            button {
-                    
-                padding: 16px 85px;
-                background-color: #6278F7;
-                font: 500 14px 'Roboto';
-                color: #fff;
-                border-radius: 12px;
-                border: 1px solid #6278F7;
-                margin-top: 1rem;
-
-
-            }
-
-            button:hover{
-
-                background-color: #4d5ec0;
-            }
 }
 
         
