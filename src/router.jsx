@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Inicio from "./pages/inicio";
+import Sobre from "./pages/sobre";
 import Cupom from "./pages/exercicios/ex1";
 import Conversao from "./pages/exercicios/ex2";
 import TotalQtd from "./pages/exercicios/ex3";
@@ -20,6 +21,7 @@ export default function Navegacao() {
            <Routes>
 
             <Route path="/" element = {<Inicio/>} />
+            <Route path="/sobre" element = {<Sobre/>} />
             <Route path="/ex1" element = {<Cupom/>}/>
             <Route path="/ex2" element = {<Conversao/>}/>
             <Route path="/ex3" element = {<TotalQtd/>}/>
