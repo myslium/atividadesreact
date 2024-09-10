@@ -4,6 +4,8 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
+import Texto from '../../../components/texto'
+
 
 export default function Conversao() {
 
@@ -30,9 +32,10 @@ export default function Conversao() {
            
           
 
-            <section className='quadro'>
-                <p>Implementar um programa em <b>Javascript</b> para <b>converter kilos em gramas.</b></p>
-            </section>
+           <Texto
+            p = {`Implementar um programa em Javascript para converter kilos em gramas.`}
+
+           />
 
             <section className='ex'>
 
@@ -47,7 +50,10 @@ export default function Conversao() {
                 </div>
 
                
+                <div className='end'>
                 <h3>Resultado: o total é {resultado} gramas</h3>
+                </div>
+               
 
                 
             </section>

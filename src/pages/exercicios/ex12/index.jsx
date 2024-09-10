@@ -3,7 +3,7 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
-
+import Texto from '../../../components/texto'
 
 export default function Comparador() {
 
@@ -110,9 +110,11 @@ export default function Comparador() {
             color = '#FFCE37'
             />
 
-            <section className='quadro'>
-                <p>Implemente um programa em Javascript que leia o nome, a idade, e o sexo de várias pessoas.</p>
-            </section>
+            <Texto
+
+            p = {`Implemente um programa em Javascript que leia o nome, a idade, e o sexo de várias pessoas.`}
+            
+            />
 
             <section className='ex'>
 

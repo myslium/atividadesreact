@@ -9,6 +9,7 @@
        
         margin-top: 3rem;
         padding-bottom: 7rem;
+        
         .card {
             display: flex;
             flex-direction: column;
@@ -62,20 +63,30 @@
 
                 background-color: #4d5ec0;
             }
-        }
 
-       .final {
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        width: 476px;
 
-        h3 {
-            font: 700 18px 'Roboto';
-            color: #383131;
+
+
         }
-       }
+        .final {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            width: 476px;
+           
+            h3 {
+                font: 700 18px 'Roboto';
+                color: #383131;
+             
+            }
+           }
+
+
+       
+
+       
        
         
     }
+    
 }

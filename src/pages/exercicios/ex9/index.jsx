@@ -3,6 +3,7 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
+import Texto from '../../../components/texto'
 
 export default function Sorveteria() {
 
@@ -37,9 +38,10 @@ export default function Sorveteria() {
            
           
 
-            <section className='quadro'>
-                <p>Implementar um programa em javascript que calcule o total a se pagar em uma compra na sorveteria, a partir do total de gramas comprado. O preço de 100g é R$ 3,50 mas se o total de gramas for a partir de 1kg, o preço das 100g diminui 50 centavos.</p>
-            </section>
+            <Texto 
+            p = {`Implementar um programa em javascript que calcule o total a se pagar em uma compra na sorveteria, a partir do total de gramas comprado. O preço de 100g é R$ 3,50 mas se o total de gramas for a partir de 1kg, o preço das 100g diminui 50 centavos.`}
+            />
+            
 
             <section className='ex'>
 

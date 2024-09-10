@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Cabecalho from '../../../components/cabecalho'
 import NomeExercicio from '../../../components/nomeEx'
 import { useState } from 'react'
+import Texto from '../../../components/texto'
 
 export default function Cupom() {
 
@@ -30,10 +31,9 @@ export default function Cupom() {
             />
            
 
-            <section className='quadro'>
-                <p>Implementar um programa em <b>Javascript</b> para calcular o valor final de uma compra a partir do valor da compra e do cupom de desconto.<b>O cupom diz quantos reais terá </b> 
-                <br />de desconto.</p>
-            </section>
+           <Texto
+           p = {`Implementar um programa em Javascript para calcular o valor final de uma compra a partir do valor da compra e do cupom de desconto.<b>O cupom diz quantos reais terá de desconto.`}
+           />
 
             <section className='ex'>
 

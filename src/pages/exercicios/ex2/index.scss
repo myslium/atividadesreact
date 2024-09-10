@@ -64,14 +64,23 @@
             }
         }
 
-       
-            h3 {
-                font: 700 16px 'Roboto';
-                color: #383131;
-                text-align: right;
-                margin-top: 1rem;
-                margin-left: 22rem;
-            }
+       .end {
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        max-width: 476px;
+        width: 100%;
+
+        h3 {
+            font: 700 16px 'Roboto';
+            color: #383131;
+            text-align: right;
+            margin-top: 1rem;
+            
+        }
+       }
+           
         
     }
 }

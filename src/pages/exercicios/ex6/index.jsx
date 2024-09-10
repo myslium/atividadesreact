@@ -3,7 +3,7 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
-
+import Texto from '../../../components/texto'
 
 export default function SalarioLiquido() {
 
@@ -34,9 +34,11 @@ export default function SalarioLiquido() {
             color = '#FF5B37'
             />
 
-            <section className='quadro'>
-                <p>Implementar um programa em Javascript para <b>calcular o salário líquido</b> de um funcionário, a partir de seu salário base, do bônus mensal em porcentagem <br />e do total de desconto em reais.</p>
-            </section>
+            <Texto
+            
+            p = {`Implementar um programa em Javascript para calcular o salário líquido de um empregado, baseado no salário base, o bônus mensal e o desconto`}
+            
+            />
 
             <section className='ex'>
 

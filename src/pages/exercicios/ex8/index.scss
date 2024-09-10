@@ -9,6 +9,13 @@
        
         margin-top: 3rem;
         padding-bottom: 7rem;
+
+        .foto {
+            margin-bottom: 2rem;
+            img {
+                width: 400px;
+            }
+        }
         .card {
             display: flex;
             flex-direction: column;

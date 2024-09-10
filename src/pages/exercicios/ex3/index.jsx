@@ -3,6 +3,7 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
+import Texto from '../../../components/texto'
 
 
 export default function TotalQtd() {
@@ -34,10 +35,10 @@ export default function TotalQtd() {
             color = '#37FFF3'
             />
 
-            <section className='quadro'>
-                <p>Implementar um programa em Javascript para calcular o <b>total de uma venda de açaí</b> a partir das quantidades compradas para cada tamanho: <b>pequeno, médio e grande,</b>
-                <br />sabendo que o valor do açaí é R$ 13,50; R$ 15,00 e R$ 17,50 respectivamente</p>
-            </section>
+           <Texto 
+           p = {`Implementar um programa em Javascript para calcular o total de uma venda de açaí a partir das quantidades compradas para cada tamanho: pequeno, médio e grande,
+           sabendo que o valor do açaí é R$ 13,50; R$ 15,00 e R$ 17,50 respectivamente`}
+           />
 
             <section className='ex'>
 

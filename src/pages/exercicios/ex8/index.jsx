@@ -4,6 +4,7 @@ import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
 import { useEffect } from 'react'
+import Texto from '../../../components/texto'
 
 export default function Temperatura() {
 
@@ -60,18 +61,24 @@ export default function Temperatura() {
             color = '#000'
             />
            
-          
-
-            <section className='quadro'>
-                <p>Implementar um programa em javascript que a partir da temperatura, avalie a situação da pessoa conforme a tabela. Ao final, apresente a classificação</p>
-            </section>
+          <Texto
+            
+            p = {`Implementar um programa em javascript que a partir da temperatura, avalie a situação da pessoa conforme a tabela. Ao final, apresente a classificação`}
+            
+            />
 
             <section className='ex'>
 
+                <div className='foto'>
+                    <img src="/assets/images/fototemp.png" alt="" />
+                </div>
+
                 <div className='card'>
                 <h2>Temperatura</h2>
-                
-                 <input type="text" value={temperatura} onChange={e => setTemperatura(e.target.value)}/>
+                 
+                    <input style={{borderColor: situacao === true ? '#a50d0d' : '#A5A5A5'}} type="text" value={temperatura} onChange={e => setTemperatura(e.target.value)}/>
+                 
+                 
                  {
                     situacao == true && <p>A sua situação está complicada!</p>
                  }

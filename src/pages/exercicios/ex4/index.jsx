@@ -3,6 +3,7 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
+import Texto from '../../../components/texto'
 
 export default function Livros() {
 
@@ -33,9 +34,11 @@ export default function Livros() {
             color = '#37B7FF'
             />
 
-            <section className='quadro'>
-                <p>Implementar um programa em Javascript que <b>calcule</b> o tempo que um livro será lido por uma pessoa a partir do nome do livro, do total de páginas e do tempo em segundos de leitura por página.</p>
-            </section>
+            <Texto
+            
+            p = {`Implementar um programa em Javascript que calcule o tempo que um livro será lido por uma pessoa a partir do nome do livro, do total de páginas e do tempo em segundos de leitura por página.`}
+            
+            />
 
             <section className='ex'>
 

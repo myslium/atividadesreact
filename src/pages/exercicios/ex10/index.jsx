@@ -3,6 +3,7 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
+import Texto from '../../../components/texto'
 
 
 export default function Imc() {
@@ -109,9 +110,11 @@ export default function Imc() {
             color = '#B75333'
             />
 
-            <section className='quadro'>
-                <p>Implemente um programa em Javascript que a partir da altura e do peso de uma pessoa, calcule o IMC e avalie a faixa correspondente a tabela ao lado. Ao final, apresente o IMC e a situação</p>
-            </section>
+            <Texto
+
+            p = {`Implemente um programa em Javascript que a partir da altura e do peso de uma pessoa, calcule o IMC e avalie a faixa correspondente a tabela ao lado. Ao final, apresente o IMC e a situação`}
+            
+            />  
 
             <section className='ex'>
 

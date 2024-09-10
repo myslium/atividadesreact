@@ -3,6 +3,7 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
+import Texto from '../../../components/texto'
 
 
 export default function Media() {
@@ -13,7 +14,7 @@ export default function Media() {
     const [resultado, setResultado] = useState(false)
 
     function mediaFinal() {
-        let calculo = ((Number(nota1.replaceAll(',' , '.')) + Number(nota2.replaceAll(',' , '.')) + Number(nota3.replaceAll(',' , '.'))) / 3).toFixed(2)
+        let calculo = (Number(nota1) + Number(nota2) + Number(nota3) ) / 3;
         
         let final = calculo>=6
 
@@ -38,10 +39,11 @@ export default function Media() {
             color = '#CB37FF'
             />
 
-            <section className='quadro'>
-                <p>Implementar um programa em Javascript para <b>verificar</b> se um aluno passou ou não, baseado em 3 notas, considerando que a média mínima para passar é 6.</p>
-            </section>
-
+            <Texto
+            
+            p = {`Implementar um programa em Javascript para verificar se um aluno passou ou não, baseado em 3 notas, considerando que a média mínima para passar é 6.`}            
+            />
+            
             <section className='ex'>
 
                 <div className='card'>

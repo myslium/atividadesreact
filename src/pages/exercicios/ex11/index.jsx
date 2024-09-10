@@ -3,6 +3,7 @@ import './index.scss'
 import { useState } from 'react'
 import NomeExercicio from '../../../components/nomeEx'
 import Cabecalho from '../../../components/cabecalho'
+import Texto from '../../../components/texto'
 
 export default function Tabuada() {
 
@@ -42,9 +43,11 @@ export default function Tabuada() {
            
           
 
-            <section className='quadro'>
-                <p>Implemente um programa em Javascript que escreva a tabuada de um número informado pelo usuário. A mensagem deve estar no formato ”A x B = X”.</p>
-            </section>
+            <Texto
+            
+            p = {`Implemente um programa em Javascript que escreva a tabuada de um número informado pelo usuário. A mensagem deve estar no formato ”A x B = X”.`}
+
+            />
 
             <section className='ex'>
 
