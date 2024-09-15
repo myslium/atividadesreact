@@ -11,6 +11,7 @@ export default function Media() {
     const [nota1, setNota1] = useState(0)
     const [nota2, setNota2] = useState(0)
     const [nota3, setNota3] = useState(0)
+    const [media, setMedia] = useState(0)
     const [resultado, setResultado] = useState(false)
 
     function mediaFinal() {
@@ -22,6 +23,7 @@ export default function Media() {
         setNota1(0)
         setNota2(0)
         setNota3(0)
+        setMedia(calculo)
 
     }
 
@@ -68,7 +70,8 @@ export default function Media() {
                 </div>
 
 
-                <div>
+                <div className='final'>
+                <h3>{media}</h3>
                 <h3>O aluno passou?:{resultado ? "True" : "False"}</h3>
 
                 </div>
