@@ -64,8 +64,10 @@ export default function SalarioLiquido() {
                 </div>
 
 
-                
+                <div className='final'>
                 <h3>O seu salário líquido é de R${resultado}</h3>
+
+                </div>
 
                 
             </section>

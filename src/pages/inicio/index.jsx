@@ -122,6 +122,8 @@ export default function Inicio() {
                     ex = 'Exercício 12'
                     
                     />
+
+                   
                 
                 </div>
 

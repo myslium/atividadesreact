@@ -64,7 +64,7 @@ export default function Livros() {
                 </div>
 
 
-                <div>
+                <div className='final'>
                 <h3>Você lerá {titulo} em {resultado} horas</h3>
 
                 </div>
